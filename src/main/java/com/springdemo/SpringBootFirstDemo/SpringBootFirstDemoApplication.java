@@ -20,8 +20,14 @@ public class SpringBootFirstDemoApplication {
 
 		obj1.code();
 
-		Alien obj2 = context.getBean(Alien.class);
-		obj2.code();
+//		Alien obj2 = context.getBean(Alien.class);
+//		obj2.code();
+
+//		Direct access to Laptop object
+//		Laptop lap = context.getBean(Laptop.class);
+//		lap.compile();
+
+
 
 	}
 }
